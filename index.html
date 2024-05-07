@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Portfolio Website HTML CSS Javascript | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class = "logo" > Nourhen.</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+        </nav>
+    </header>
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1> Hi, <span> I'm Nourhen</span></h1>
+            <p>Hello! I'm Nourhen, a Computer Science student passionate about all things tech. </p>
+        </div>
+    </section>
+    <!-- about section design -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+            <p>Hello! I'm Nourhen, a Computer Science student passionate about all things tech. Currently pursuing my degree, I'm excited to embark on a journey of discovery and learning in the world of computing.
+
+                Throughout my academic journey, I've developed a strong foundation in programming languages like C# and python, as well as skills in problem-solving, algorithm design, and software development. I'm constantly seeking new challenges and opportunities to expand my knowledge and skills.</p>
+        </div>
+
+    </section>
+    <!-- education section design -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"> <i class="bx bxs-calendar"></i>2014 - 2018</div>
+                            <h3> A-levels - Elite high school Kairouan</h3>
+                            
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"> <i class='bx bxs-calendar'></i>2020 - 2024</div>
+                            <h3> Bachelor Computer science University Augsburg</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="education-column">
+                    <h3 class="title">Experience</h3>
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"> <i class='bx bxs-calendar'></i>2014 - 2018</div>
+                                <h3> XITASO</h3>
+                                <p>  Collaborated on a real project for Xitaso, a web development company, contributing to architecture,<br>
+                                     design decisions, and solution development.</p>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"> <i class="bx bxs-calendar"></i>2020 - 2024</div>
+                                <h3> MAKANDRA</h3>
+                                <p> Participated in a collaborative project with Makandra and a university group to implement a <br> web-based application, focusing on teamwork and achieving a user-friendly interface.</p>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"> <i class="bx bxs-calendar"></i>2020 - 2024</div>
+                                <h3> Bachelor Thesis</h3>
+                                <p>Developed and implemented a machine learning project for segmentation, integrating Scribbles as<br> a prompt type for the Segment Anything model originally created by Meta.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading"> My <span>Skills</span></h2>
+        <div class="container">
+            <div class="skills-row">
+                <div class="bar">
+                    <div class="info">
+                        <div class="skill">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                                <path d="M 25 2 C 24.285156 2 23.570313 2.179688 22.933594 2.539063 L 6.089844 12.003906 C 4.800781 12.726563 4 14.082031 4 15.535156 L 4 34.464844 C 4 35.917969 4.800781 37.273438 6.089844 37.996094 L 22.933594 47.460938 C 23.570313 47.820313 24.285156 48 25 48 C 25.714844 48 26.429688 47.820313 27.066406 47.460938 L 43.910156 38 C 45.199219 37.273438 46 35.917969 46 34.464844 L 46 15.535156 C 46 14.082031 45.199219 12.726563 43.910156 12.003906 L 27.066406 2.539063 C 26.429688 2.179688 25.714844 2 25 2 Z M 25 13 C 28.78125 13 32.277344 14.753906 34.542969 17.738281 L 30.160156 20.277344 C 28.84375 18.835938 26.972656 18 25 18 C 21.140625 18 18 21.140625 18 25 C 18 28.859375 21.140625 32 25 32 C 26.972656 32 28.84375 31.164063 30.160156 29.722656 L 34.542969 32.261719 C 32.277344 35.246094 28.78125 37 25 37 C 18.382813 37 13 31.617188 13 25 C 13 18.382813 18.382813 13 25 13 Z M 35 20 L 37 20 L 37 22 L 39 22 L 39 20 L 41 20 L 41 22 L 43 22 L 43 24 L 41 24 L 41 26 L 43 26 L 43 28 L 41 28 L 41 30 L 39 30 L 39 28 L 37 28 L 37 30 L 35 30 L 35 28 L 33 28 L 33 26 L 35 26 L 35 24 L 33 24 L 33 22 L 35 22 Z M 37 24 L 37 26 L 39 26 L 39 24 Z"></path>
+                            </svg>
+                            <span>cs</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                
+
+                <div class="bar">
+                    <div class="info">
+                        <div class="skill">
+                            <i class='bx bxl-java'></i> 
+                            <span>Java</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <div class="skill">
+                            <i class='bx bxl-python'></i>
+                            <span>python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <div class="skill">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 109.19 122.88" style="enable-background:new 0 0 109.19 122.88" xml:space="preserve"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#3949AB;} .st1{fill-rule:evenodd;clip-rule:evenodd;fill:#283593;} .st2{fill-rule:evenodd;clip-rule:evenodd;fill:#5C6BC0;} .st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}</style><g><path class="st0" d="M107.81,92.16c0.86-1.48,1.39-3.16,1.39-4.66V35.38c0-1.5-0.53-3.17-1.39-4.66L54.6,61.44L107.81,92.16 L107.81,92.16L107.81,92.16z"/><path class="st1" d="M59.33,121.75l45.14-26.06c1.3-0.75,2.48-2.05,3.34-3.53L54.6,61.44L1.39,92.16c0.86,1.48,2.04,2.78,3.34,3.53 l45.14,26.06C52.47,123.25,56.72,123.25,59.33,121.75L59.33,121.75L59.33,121.75z"/><path class="st2" d="M107.81,30.72c-0.86-1.48-2.04-2.78-3.34-3.53L59.33,1.13c-2.6-1.5-6.86-1.5-9.46,0L4.73,27.19 C2.13,28.69,0,32.38,0,35.38V87.5c0,1.5,0.53,3.17,1.39,4.66L54.6,61.44L107.81,30.72L107.81,30.72L107.81,30.72z"/><path class="st3" d="M54.6,97.84c-20.07,0-36.4-16.33-36.4-36.4s16.33-36.4,36.4-36.4c12.95,0,25.03,6.97,31.52,18.19l-15.75,9.12 c-3.25-5.62-9.29-9.1-15.77-9.1c-10.04,0-18.2,8.16-18.2,18.2c0,10.03,8.16,18.2,18.2,18.2c6.48,0,12.52-3.49,15.77-9.1l15.75,9.12 C79.63,90.87,67.55,97.84,54.6,97.84L54.6,97.84L54.6,97.84z"/></g></svg>           
+                            <span>C</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bar">
+                    <div class="info">
+                        <div class="skill">
+                            <i class='bx bxl-html5' ></i>
+                            <span>html</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <div class="skill">
+                            <i class='bx bxl-css3' ></i> 
+                            <span>css</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact section design -->
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p> Copyright &copy; 2024 by Nourhen | All Rights Reserved.</p>
+
+        </div>
+        
+
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
