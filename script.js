@@ -61,11 +61,7 @@ function validatePhone(){
         phoneError.innerHTML = "Phone is required"; 
         return false;
     }
-    if(pNumber.length !== 12){
-        phoneError.innerHTML = "Phone should be 12 digits";  
-        return false;
-    }
-    if(!pNumber.match(/^[0-9]{12}$/)){
+    if(!pNumber.match(/^[0-9]$/)){
         phoneError.innerHTML= "Only digits"; 
         return false;
     }
@@ -84,11 +80,10 @@ function validateSubject(){
 }
 function validateMsg(){
     var msgError = document.getElementById('msg-error');
-    var required = 30;
     var msge = msg.value; 
-    var left = required- msge.length;
-    if(left>0){
-        msgError.innerHTML = left +'more characters required'; 
+    
+    if(msge.length == 0){
+        msgError.innerHTML = 'Message is required'; 
         return false;
     }
     msgError.innerHTML = "";
