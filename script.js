@@ -61,7 +61,7 @@ function validatePhone(){
         phoneError.innerHTML = "Phone is required"; 
         return false;
     }
-    if(!pNumber.match(/^[0-9]$/)){
+    if(!pNumber.match(/^[0-9]+$/)){
         phoneError.innerHTML= "Only digits"; 
         return false;
     }
